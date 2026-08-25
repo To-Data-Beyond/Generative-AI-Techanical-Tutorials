@@ -16,6 +16,7 @@ Companion notebooks and code for To Data & Beyond's hands-on generative AI tutor
 
 | Topic | Blog | Notebook | Video Tutorial |
 | --- | --- | --- | --- |
+| **Build a Stock Analysis MCP Server** | [Tutorial](https://todatabeyond.com/blog/building-a-stock-analysis-mcp-application-from-scratch-a-step-by-step) | [![Notebook](https://img.shields.io/badge/GitHub-Notebook-181717?style=for-the-badge&logo=github)](./Stock_Analysis_MCP_Server.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/To-Data-Beyond/Generative-AI-Techanical-Tutorials/blob/main/Stock_Analysis_MCP_Server.ipynb) | — |
 | **Bifrost MCP Gateway and Code Mode** | [Tutorial](https://todatabeyond.com/blog/how-i-use-bifrost-mcp-gateway-and-code-mode-to-give-claude-code-safer-mcp-access-with-lower-token-cost) | [![Notebook](https://img.shields.io/badge/GitHub-Local%20Companion-181717?style=for-the-badge&logo=github)](./Bifrost_MCP_Gateway_and_Code_Mode.ipynb) | — |
 | **Use GLM-5 in Claude Code** | [Tutorial](https://todatabeyond.com/blog/use-glm-5-in-claude-code-and-save-60-on-tokens) | [![Notebook](https://img.shields.io/badge/GitHub-Local%20Companion-181717?style=for-the-badge&logo=github)](./Claude_Code_with_GLM_5.ipynb) | — |
 | **Build a FastAPI Feature with BAND** | [Tutorial](https://todatabeyond.com/blog/from-plan-to-pr-building-a-fastapi-feature-with-band) | [![Notebook](https://img.shields.io/badge/GitHub-Local%20Companion-181717?style=for-the-badge&logo=github)](./FastAPI_Feature_with_BAND.ipynb) | — |
