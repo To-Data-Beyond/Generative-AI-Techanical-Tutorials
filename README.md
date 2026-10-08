@@ -9,7 +9,7 @@ Companion notebooks and code for To Data & Beyond's hands-on generative AI tutor
 
 | Series | Contents | Available notebooks |
 | --- | --- | --- |
-| **Hands-On LangChain for LLM Applications Development** | [Series contents](./series/hands-on-langchain/) | Parts 1–4 |
+| **Hands-On LangChain for LLM Applications Development** | [Series contents](./series/hands-on-langchain/) | Parts 1–5 |
 | **Building Agents with LangGraph** | [Series contents](./series/langgraph/) | Parts 3, 5, 6, and 7 |
 | **Building Multimodal RAG Application** | [Series contents](./series/multimodal-rag/) | Part 2 |
 | **Qwen 3 Mathematical Reasoning Fine-Tuning with GRPO** | [Series contents](./series/qwen-3-grpo/) | Shared Part 1–2 notebook |
