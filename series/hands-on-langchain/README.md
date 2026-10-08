@@ -11,6 +11,7 @@ Companion notebooks for the Hands-On LangChain article series.
 | 5 | [Information Retrieval](https://todatabeyond.com/blog/hands-on-langchain-for-llm-applications-development-information-retrieval) | [Notebook](./Hands_On_LangChain_05_Information_Retrieval.ipynb) |
 | 6 | [Answering Questions From Documents](https://todatabeyond.com/blog/hands-on-langchain-for-llms-app-answering-questions-from-documents) | [Notebook](./Hands_On_LangChain_06_Answering_Questions_From_Documents.ipynb) |
 | 7 | [Chat with Your Files](https://todatabeyond.com/blog/hands-on-langchain-for-llms-app-chat-with-your-files) | [Notebook](./Hands_On_LangChain_07_Chat_With_Your_Files.ipynb) |
+| 8 | [Prompt Templates](https://todatabeyond.com/blog/hands-on-langchain-for-llm-applications-development-prompt-templates) | [Notebook](./Hands_On_LangChain_08_Prompt_Templates.ipynb) |
 
 The notebooks create their own local sample files and verify their default paths
 without API keys. Parts 2 and 3 use current `langchain-text-splitters` APIs to
@@ -50,3 +51,10 @@ per-instance upload storage, and headless Bokeh dashboard construction.
 The small model's incorrect follow-up rewrite and answer are explicitly exposed;
 these tests verify wiring, not reasoning quality or production readiness. Its
 complete eleven-step hosted appendix is disabled by default and not live-tested.
+
+Part 8 verifies actual prompt variables, formatting, HumanMessage types,
+template reuse, missing-input validation, literal braces, and exact arithmetic
+without keys. An explicitly mocked httpx transport tests real OpenAI SDK wiring,
+not hosted inference. Separate FLAN-T5-small outputs demonstrate style-transfer
+failures and are not certified as good translations. All nineteen updated
+original hosted code steps are present but disabled by default and unexecuted.
