@@ -18,3 +18,11 @@ article series.
 
 Links will move from the source archive to To Data & Beyond as each article is
 published on the website.
+
+## Runtime verification
+
+The default execution paths for Parts 2–7 were run end to end on October 8,
+2026. The notebooks keep heavyweight extensions such as the large UMAP demo,
+Whisper transcription, and BLIP caption generation opt-in. Parts 6 and 7 use
+small open-source vision-language checkpoints by default, so their verified
+examples do not require an API key.
