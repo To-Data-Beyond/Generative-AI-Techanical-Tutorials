@@ -12,6 +12,7 @@ Companion notebooks for the Hands-On LangChain article series.
 | 6 | [Answering Questions From Documents](https://todatabeyond.com/blog/hands-on-langchain-for-llms-app-answering-questions-from-documents) | [Notebook](./Hands_On_LangChain_06_Answering_Questions_From_Documents.ipynb) |
 | 7 | [Chat with Your Files](https://todatabeyond.com/blog/hands-on-langchain-for-llms-app-chat-with-your-files) | [Notebook](./Hands_On_LangChain_07_Chat_With_Your_Files.ipynb) |
 | 8 | [Prompt Templates](https://todatabeyond.com/blog/hands-on-langchain-for-llm-applications-development-prompt-templates) | [Notebook](./Hands_On_LangChain_08_Prompt_Templates.ipynb) |
+| 9 | [Output Parsing](https://todatabeyond.com/blog/hands-on-langchain-for-llm-applications-development-output-parsing) | [Notebook](./Hands_On_LangChain_09_Output_Parsing.ipynb) |
 
 The notebooks create their own local sample files and verify their default paths
 without API keys. Parts 2 and 3 use current `langchain-text-splitters` APIs to
@@ -58,3 +59,10 @@ without keys. An explicitly mocked httpx transport tests real OpenAI SDK wiring,
 not hosted inference. Separate FLAN-T5-small outputs demonstrate style-transfer
 failures and are not certified as good translations. All nineteen updated
 original hosted code steps are present but disabled by default and unexecuted.
+
+Part 9 executes real LangChain parsers and strict Pydantic validation on explicitly
+scripted response-text fixtures, not live model extraction. Tests cover dictionary
+access, Markdown fences, the legacy parser's lack of type enforcement, eleven
+invalid-input cases, unknown-value sentinels, and prompt/parser composition.
+The strict entry point rejects incomplete JSON before typed parsing. All ten
+maintained original hosted steps are present, disabled by default and unexecuted.
