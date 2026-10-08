@@ -10,6 +10,7 @@ Companion notebooks for the Hands-On LangChain article series.
 | 4 | [Vector Database & Text Embeddings](https://todatabeyond.com/blog/hands-on-langchain-for-llm-applications-development-vector-database-text-embeddings) | [Notebook](./Hands_On_LangChain_04_Vector_Databases_Text_Embeddings.ipynb) |
 | 5 | [Information Retrieval](https://todatabeyond.com/blog/hands-on-langchain-for-llm-applications-development-information-retrieval) | [Notebook](./Hands_On_LangChain_05_Information_Retrieval.ipynb) |
 | 6 | [Answering Questions From Documents](https://todatabeyond.com/blog/hands-on-langchain-for-llms-app-answering-questions-from-documents) | [Notebook](./Hands_On_LangChain_06_Answering_Questions_From_Documents.ipynb) |
+| 7 | [Chat with Your Files](https://todatabeyond.com/blog/hands-on-langchain-for-llms-app-chat-with-your-files) | [Notebook](./Hands_On_LangChain_07_Chat_With_Your_Files.ipynb) |
 
 The notebooks create their own local sample files and verify their default paths
 without API keys. Parts 2 and 3 use current `langchain-text-splitters` APIs to
@@ -41,3 +42,11 @@ context, stuff/map-reduce/refine call counts, sequential refinement, stateless
 follow-up prompts, and persistence—not general answer quality. All fifteen
 original hosted steps are updated in an opt-in appendix, which requires your
 local OpenAI key, selected chat model, and CS229 PDFs and was not live-tested.
+
+Part 7 generates its own PDF fixtures and runs actual MiniLM/Chroma retrieval
+and FLAN-T5-small inference. It verifies history enters follow-up rewriting,
+buffer clearing, source tracking, Panel conversation/reset/upload callbacks,
+per-instance upload storage, and headless Bokeh dashboard construction.
+The small model's incorrect follow-up rewrite and answer are explicitly exposed;
+these tests verify wiring, not reasoning quality or production readiness. Its
+complete eleven-step hosted appendix is disabled by default and not live-tested.
