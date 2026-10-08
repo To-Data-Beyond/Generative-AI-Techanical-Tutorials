@@ -13,6 +13,7 @@ Companion notebooks for the Hands-On LangChain article series.
 | 7 | [Chat with Your Files](https://todatabeyond.com/blog/hands-on-langchain-for-llms-app-chat-with-your-files) | [Notebook](./Hands_On_LangChain_07_Chat_With_Your_Files.ipynb) |
 | 8 | [Prompt Templates](https://todatabeyond.com/blog/hands-on-langchain-for-llm-applications-development-prompt-templates) | [Notebook](./Hands_On_LangChain_08_Prompt_Templates.ipynb) |
 | 9 | [Output Parsing](https://todatabeyond.com/blog/hands-on-langchain-for-llm-applications-development-output-parsing) | [Notebook](./Hands_On_LangChain_09_Output_Parsing.ipynb) |
+| 10 | [ChatBots Memory](https://todatabeyond.com/blog/hands-on-langchain-for-llms-app-chatbots-memory) | [Notebook](./Hands_On_LangChain_10_Chatbots_Memory.ipynb) |
 
 The notebooks create their own local sample files and verify their default paths
 without API keys. Parts 2 and 3 use current `langchain-text-splitters` APIs to
@@ -66,3 +67,11 @@ access, Markdown fences, the legacy parser's lack of type enforcement, eleven
 invalid-input cases, unknown-value sentinels, and prompt/parser composition.
 The strict entry point rejects incomplete JSON before typed parsing. All ten
 maintained original hosted steps are present, disabled by default and unexecuted.
+
+Part 10 tests actual legacy buffer/window/token/summary containers, real
+FLAN-T5-small conversation and summarization, model-specific token counting,
+pruning and clearing, and current LangGraph checkpointing with thread isolation
+and deletion. Scripted summary and graph-node fixtures explicitly test wiring,
+not inference. Local model mistakes are retained and documented. All 22 original
+hosted steps are maintained in a disabled, unexecuted appendix. Legacy APIs are
+archive compatibility examples, not recommended new application interfaces.
