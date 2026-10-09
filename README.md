@@ -13,7 +13,7 @@ Companion notebooks and code for To Data & Beyond's hands-on generative AI tutor
 | **Building Agents with LangGraph** | [Series contents](./series/langgraph/) | Parts 3, 5, 6, and 7 |
 | **Building Multimodal RAG Application** | [Series contents](./series/multimodal-rag/) | Part 2 |
 | **Qwen 3 Mathematical Reasoning Fine-Tuning with GRPO** | [Series contents](./series/qwen-3-grpo/) | Shared Part 1–2 notebook |
-| **Managing Agentic Memory with LangMem** | [Series contents](./series/langmem/) | Part 1 is conceptual; coding companions follow with Parts 2–5 |
+| **Managing Agentic Memory with LangMem** | [Series contents](./series/langmem/) | Part 2 (Part 1 is conceptual) |
 
 ## Standalone tutorials
 
