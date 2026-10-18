@@ -11,7 +11,7 @@ procedural memory, built with LangGraph and LangMem.
 | 2 | [Building a Baseline Agent](https://todatabeyond.com/blog/managing-agentic-memory-with-langmem-2-5-building-baseline-agent) | [Notebook](./LangMem_02_Baseline_Email_Agent.ipynb) · [Python](./baseline_agent.py) · [Tests](./test_baseline_agent.py) |
 | 3 | [Assistant Agent with Semantic Memory](https://todatabeyond.com/blog/managing-agentic-memory-with-langmem-part-3-assistant-agent-with-semantic-memory) | [Notebook](./LangMem_03_Semantic_Memory.ipynb) · [Python](./semantic_memory_agent.py) · [Tests](./test_semantic_memory_agent.py) |
 | 4 | [Building an Agent with Semantic and Episodic Memory](https://todatabeyond.com/blog/managing-agentic-memory-with-langmem-part-4-semantic-and-episodic-memory) | [Notebook](./LangMem_04_Semantic_Episodic_Memory.ipynb) · [Python](./episodic_memory_agent.py) · [Tests](./test_episodic_memory_agent.py) |
-| 5 | [Building an Agent with Semantic, Episodic, and Procedural Memory](https://medium.com/@yousefhosni/building-agent-with-semantic-episodic-procedural-memory-8f481aee9614) | On Medium; website publication and maintained notebook pending |
+| 5 | [Building an Agent with Semantic, Episodic, and Procedural Memory](https://todatabeyond.com/blog/managing-agentic-memory-with-langmem-part-5-semantic-episodic-procedural-memory) | [Notebook](./LangMem_05_Semantic_Episodic_Procedural_Memory.ipynb) · [Python](./procedural_memory_agent.py) · [Tests](./test_procedural_memory_agent.py) |
 
 Part 1 explains the memory types and hot-path/background update strategies. It
 does not contain code, so there is no Part 1 notebook or code-execution claim.
@@ -95,9 +95,44 @@ labels should influence triage; email text is untrusted data. The example helper
 does synchronous manual insertion, not an automatic background learning loop.
 RAM storage, namespaces, sandbox and hosted-path limitations remain as above.
 
-When each remaining article is published on todatabeyond.com, replace its
-temporary Medium URL here and in every published website article in the series.
-The original Medium slugs intentionally retain their historical spelling.
+## Part 5: reviewed procedural updates
+
+The self-contained notebook completes the series with all nineteen maintained
+source code placements and fifteen execution-tested regressions. It runs actual
+MiniLM retrieval, LangMem CRUD, LangGraph and multi-prompt optimizer orchestration.
+The optimizer's credit-assignment/rewrite responses and agent chat choices are
+explicit scripted model fixtures, **not learned optimization or inference**.
+
+Use the Part 3 installation above, then run from this folder:
+
+```bash
+LANGMEM_RUN_HOSTED=0 python procedural_memory_agent.py
+LANGMEM_RUN_HOSTED=0 python -m unittest -v test_procedural_memory_agent
+LANGMEM_RUN_HOSTED=0 python -m unittest -v test_baseline_agent test_semantic_memory_agent test_episodic_memory_agent test_procedural_memory_agent
+```
+
+The Python workflow reuses Part 4's maintained foundation (which also runs its
+sandbox demo when imported); the notebook includes every definition inline and
+needs no sibling files. Set SEMANTIC_MODEL_CACHE to reuse a model cache.
+
+Updates match names, not result positions. Missing/duplicate/unknown/invalid
+proposals and stale snapshots are rejected before writes. The same outer graph
+reloads preferences on its next call. Default review is an explicit scripted
+demo approval; hosted mode displays the full diff and requires typing APPLY.
+This is not authenticated review, semantic safety validation, atomic compare-and-
+swap, a database transaction, durable audit, rollback, or injection resistance.
+Fixed safety instructions are outside the editable preference, but this does
+not prove a model will obey them. Prompt changes do not update model weights.
+
+**Do not deploy the source's blanket Alice-ignore rule:** it suppresses the
+example's urgent outage report. The notebook reproduces only toy sandbox wiring;
+production incident exceptions and human escalation are not implemented. Hosted
+chat/optimizer/OpenAI embeddings remain opt-in and unexecuted. All action tools
+remain sandbox-only; RAM contents disappear on restart. No credentials, outputs
+or execution counts are saved in the notebook.
+
+All five series entries now link to To Data & Beyond. Publish the companion
+before the website article so its main-branch notebook link resolves.
 
 ## References
 
