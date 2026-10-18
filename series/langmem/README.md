@@ -10,7 +10,7 @@ procedural memory, built with LangGraph and LangMem.
 | 1 | [Introduction to Agentic Memory](https://todatabeyond.com/blog/managing-agentic-memory-with-langmem-part-1-introduction-to-agentic-memory) | Conceptual introduction; no executable code in the source article |
 | 2 | [Building a Baseline Agent](https://todatabeyond.com/blog/managing-agentic-memory-with-langmem-2-5-building-baseline-agent) | [Notebook](./LangMem_02_Baseline_Email_Agent.ipynb) · [Python](./baseline_agent.py) · [Tests](./test_baseline_agent.py) |
 | 3 | [Assistant Agent with Semantic Memory](https://todatabeyond.com/blog/managing-agentic-memory-with-langmem-part-3-assistant-agent-with-semantic-memory) | [Notebook](./LangMem_03_Semantic_Memory.ipynb) · [Python](./semantic_memory_agent.py) · [Tests](./test_semantic_memory_agent.py) |
-| 4 | [Building an Agent with Semantic and Episodic Memory](https://medium.com/@yousefhosni/managing-agentic-meomery-with-langmem-4-5-building-agent-with-semantic-episodic-memory-f1c892df97b1) | On Medium; website publication and maintained notebook pending |
+| 4 | [Building an Agent with Semantic and Episodic Memory](https://todatabeyond.com/blog/managing-agentic-memory-with-langmem-part-4-semantic-and-episodic-memory) | [Notebook](./LangMem_04_Semantic_Episodic_Memory.ipynb) · [Python](./episodic_memory_agent.py) · [Tests](./test_episodic_memory_agent.py) |
 | 5 | [Building an Agent with Semantic, Episodic, and Procedural Memory](https://medium.com/@yousefhosni/building-agent-with-semantic-episodic-procedural-memory-8f481aee9614) | On Medium; website publication and maintained notebook pending |
 
 Part 1 explains the memory types and hot-path/background update strategies. It
@@ -70,6 +70,30 @@ All email/calendar tools remain sandbox-only. Hosted chat and OpenAI embeddings
 are opt-in via the environment variables above and are **not execution-tested**
 without configured credentials. The notebook includes every definition inline;
 no sibling-module import is needed. Commit no saved outputs or credentials.
+
+## Part 4: reviewed episodic examples
+
+The complete notebook executes real MiniLM embeddings, indexed example retrieval,
+LangMem semantic tools and LangGraph routing. Chat classifications/replies are
+explicit scripted fixtures. All fifteen regression tests passed, including the
+source's `harrison`/`Youssef` mismatch, the corrected feedback flow, user scoping,
+a real paraphrase retrieval, invalid/unreviewed/conflicting labels, deletion,
+JSON formatting/truncation, and separate examples/semantic collections.
+
+Use the Part 3 dependency installation above, then run:
+
+```bash
+LANGMEM_RUN_HOSTED=0 python episodic_memory_agent.py
+LANGMEM_RUN_HOSTED=0 python -m unittest -v test_episodic_memory_agent
+```
+
+Feedback changes retrieved context, not model weights. The fixture's initial
+sales-email response is deliberately illustrative, not a recommended anti-spam
+policy or proof of live-model behaviour. The score threshold is uncalibrated;
+one paraphrase test is not a robustness benchmark. Only reviewed classification
+labels should influence triage; email text is untrusted data. The example helper
+does synchronous manual insertion, not an automatic background learning loop.
+RAM storage, namespaces, sandbox and hosted-path limitations remain as above.
 
 When each remaining article is published on todatabeyond.com, replace its
 temporary Medium URL here and in every published website article in the series.
