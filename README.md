@@ -19,6 +19,7 @@ Companion notebooks and code for To Data & Beyond's hands-on generative AI tutor
 
 | Topic | Blog | Notebook | Video Tutorial |
 | --- | --- | --- | --- |
+| **Python Loop Alternatives** | [Tutorial](https://todatabeyond.com/blog/how-to-eliminate-loops-from-your-python-code) | [Notebook](./Python_Loop_Alternatives.ipynb) · [Open in Colab](https://colab.research.google.com/github/To-Data-Beyond/Generative-AI-Techanical-Tutorials/blob/main/Python_Loop_Alternatives.ipynb) | — |
 | **Effective Data Splitting** | [Tutorial](https://todatabeyond.com/blog/how-to-split-data-effectively-for-your-data-science-project) | [Notebook](./Effective_Data_Splitting.ipynb) · [Open in Colab](https://colab.research.google.com/github/To-Data-Beyond/Generative-AI-Techanical-Tutorials/blob/main/Effective_Data_Splitting.ipynb) | — |
 | **5 Python Tips for Coding Interviews** | [Tutorial](https://todatabeyond.com/blog/5-python-tips-for-acing-data-science-coding-interview) | [Notebook](./Python_Coding_Interview_Tips.ipynb) · [Open in Colab](https://colab.research.google.com/github/To-Data-Beyond/Generative-AI-Techanical-Tutorials/blob/main/Python_Coding_Interview_Tips.ipynb) | — |
 | **Object Detection Evaluation Metrics** | [Tutorial](https://todatabeyond.com/blog/overview-of-object-detection-evaluation-metrics) | [Notebook](./Object_Detection_Evaluation_Metrics.ipynb) · [Open in Colab](https://colab.research.google.com/github/To-Data-Beyond/Generative-AI-Techanical-Tutorials/blob/main/Object_Detection_Evaluation_Metrics.ipynb) | — |
