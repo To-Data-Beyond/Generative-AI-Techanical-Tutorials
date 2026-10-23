@@ -20,6 +20,7 @@ Companion notebooks and code for To Data & Beyond's hands-on generative AI tutor
 
 | Topic | Blog | Notebook | Video Tutorial |
 | --- | --- | --- | --- |
+| **pandas GroupBy, Transform & Filter** | [Tutorial](https://todatabeyond.com/blog/how-to-use-groupby-effectively-as-a-data-scientist) | [Notebook](./Pandas_Groupby_Transform_and_Filter.ipynb) · [Open in Colab](https://colab.research.google.com/github/To-Data-Beyond/Generative-AI-Techanical-Tutorials/blob/main/Pandas_Groupby_Transform_and_Filter.ipynb) | — |
 | **pandas Loop Alternatives** | [Tutorial](https://todatabeyond.com/blog/stop-looping-through-pandas-dataframes-and-do-this-instead) | [Notebook](./Pandas_Loop_Alternatives.ipynb) · [Open in Colab](https://colab.research.google.com/github/To-Data-Beyond/Generative-AI-Techanical-Tutorials/blob/main/Pandas_Loop_Alternatives.ipynb) | — |
 | **Selecting & Replacing pandas Values** | [Tutorial](https://todatabeyond.com/blog/selecting-and-replacing-values-in-pandas-dataframe-effectively) | [Notebook](./Pandas_Value_Selection_and_Replacement.ipynb) · [Open in Colab](https://colab.research.google.com/github/To-Data-Beyond/Generative-AI-Techanical-Tutorials/blob/main/Pandas_Value_Selection_and_Replacement.ipynb) | — |
 | **Python Clean Code Principles** | [Tutorial](https://todatabeyond.com/blog/write-python-clean-code-using-these-3-principles) | [Notebook](./Python_Clean_Code_Principles.ipynb) · [Open in Colab](https://colab.research.google.com/github/To-Data-Beyond/Generative-AI-Techanical-Tutorials/blob/main/Python_Clean_Code_Principles.ipynb) | — |
