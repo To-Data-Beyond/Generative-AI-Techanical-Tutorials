@@ -9,6 +9,7 @@ Companion notebooks and code for To Data & Beyond's hands-on generative AI tutor
 
 | Series | Contents | Available notebooks |
 | --- | --- | --- |
+| **Efficient Python for Data Scientists** | [Series contents](./series/efficient-python/) | Complete: Parts 1–2 |
 | **Hands-On LangChain for LLM Applications Development** | [Series contents](./series/hands-on-langchain/) | Parts 1–10 |
 | **Building Agents with LangGraph** | [Series contents](./series/langgraph/) | Parts 3, 5, 6, and 7 |
 | **Building Multimodal RAG Application** | [Series contents](./series/multimodal-rag/) | Part 2 |
@@ -19,7 +20,6 @@ Companion notebooks and code for To Data & Beyond's hands-on generative AI tutor
 
 | Topic | Blog | Notebook | Video Tutorial |
 | --- | --- | --- | --- |
-| **Python Efficiency Measurement** | [Tutorial](https://todatabeyond.com/blog/write-efficient-python-code-for-data-scientists-defining-and-measuring-code-efficiency) | [Notebook](./Python_Efficiency_Measurement.ipynb) · [Open in Colab](https://colab.research.google.com/github/To-Data-Beyond/Generative-AI-Techanical-Tutorials/blob/main/Python_Efficiency_Measurement.ipynb) | — |
 | **Python Clean Code Principles** | [Tutorial](https://todatabeyond.com/blog/write-python-clean-code-using-these-3-principles) | [Notebook](./Python_Clean_Code_Principles.ipynb) · [Open in Colab](https://colab.research.google.com/github/To-Data-Beyond/Generative-AI-Techanical-Tutorials/blob/main/Python_Clean_Code_Principles.ipynb) | — |
 | **Python Loop Alternatives** | [Tutorial](https://todatabeyond.com/blog/how-to-eliminate-loops-from-your-python-code) | [Notebook](./Python_Loop_Alternatives.ipynb) · [Open in Colab](https://colab.research.google.com/github/To-Data-Beyond/Generative-AI-Techanical-Tutorials/blob/main/Python_Loop_Alternatives.ipynb) | — |
 | **Effective Data Splitting** | [Tutorial](https://todatabeyond.com/blog/how-to-split-data-effectively-for-your-data-science-project) | [Notebook](./Effective_Data_Splitting.ipynb) · [Open in Colab](https://colab.research.google.com/github/To-Data-Beyond/Generative-AI-Techanical-Tutorials/blob/main/Effective_Data_Splitting.ipynb) | — |
