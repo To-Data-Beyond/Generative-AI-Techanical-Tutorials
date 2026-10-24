@@ -20,6 +20,7 @@ Companion notebooks and code for To Data & Beyond's hands-on generative AI tutor
 
 | Topic | Blog | Notebook | Video Tutorial |
 | --- | --- | --- | --- |
+| **Ten Common pandas Mistakes** | [Tutorial](https://todatabeyond.com/blog/maximizing-pandas-efficiency-top-10-mistakes-to-steer-clear-of-in-your-code) | [Notebook](./Pandas_Common_Mistakes.ipynb) · [Open in Colab](https://colab.research.google.com/github/To-Data-Beyond/Generative-AI-Techanical-Tutorials/blob/main/Pandas_Common_Mistakes.ipynb) | — |
 | **20 Essential pandas Functions** | [Tutorial](https://todatabeyond.com/blog/20-pandas-functions-for-80-of-your-data-science-tasks) | [Notebook](./Pandas_Essential_Functions.ipynb) · [Open in Colab](https://colab.research.google.com/github/To-Data-Beyond/Generative-AI-Techanical-Tutorials/blob/main/Pandas_Essential_Functions.ipynb) | — |
 | **pandas GroupBy, Transform & Filter** | [Tutorial](https://todatabeyond.com/blog/how-to-use-groupby-effectively-as-a-data-scientist) | [Notebook](./Pandas_Groupby_Transform_and_Filter.ipynb) · [Open in Colab](https://colab.research.google.com/github/To-Data-Beyond/Generative-AI-Techanical-Tutorials/blob/main/Pandas_Groupby_Transform_and_Filter.ipynb) | — |
 | **pandas Loop Alternatives** | [Tutorial](https://todatabeyond.com/blog/stop-looping-through-pandas-dataframes-and-do-this-instead) | [Notebook](./Pandas_Loop_Alternatives.ipynb) · [Open in Colab](https://colab.research.google.com/github/To-Data-Beyond/Generative-AI-Techanical-Tutorials/blob/main/Pandas_Loop_Alternatives.ipynb) | — |
