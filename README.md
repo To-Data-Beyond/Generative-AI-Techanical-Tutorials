@@ -20,6 +20,7 @@ Companion notebooks and code for To Data & Beyond's hands-on generative AI tutor
 
 | Topic | Blog | Notebook | Video Tutorial |
 | --- | --- | --- | --- |
+| **SQL Ratio Interview Problems** | [Tutorial](https://todatabeyond.com/blog/how-to-ace-the-sql-ratio-problems-in-data-science-interviews) | [Notebook](./SQL_Ratio_Interview_Problems.ipynb) · [Open in Colab](https://colab.research.google.com/github/To-Data-Beyond/Generative-AI-Techanical-Tutorials/blob/main/SQL_Ratio_Interview_Problems.ipynb) | — |
 | **SQL Top-N Interview Problems** | [Tutorial](https://todatabeyond.com/blog/unlocking-the-power-of-sql-how-to-ace-top-n-problem-questions-in-interviews) | [Notebook](./SQL_Top_N_Interview_Problems.ipynb) · [Open in Colab](https://colab.research.google.com/github/To-Data-Beyond/Generative-AI-Techanical-Tutorials/blob/main/SQL_Top_N_Interview_Problems.ipynb) | — |
 | **Ten Common pandas Mistakes** | [Tutorial](https://todatabeyond.com/blog/maximizing-pandas-efficiency-top-10-mistakes-to-steer-clear-of-in-your-code) | [Notebook](./Pandas_Common_Mistakes.ipynb) · [Open in Colab](https://colab.research.google.com/github/To-Data-Beyond/Generative-AI-Techanical-Tutorials/blob/main/Pandas_Common_Mistakes.ipynb) | — |
 | **20 Essential pandas Functions** | [Tutorial](https://todatabeyond.com/blog/20-pandas-functions-for-80-of-your-data-science-tasks) | [Notebook](./Pandas_Essential_Functions.ipynb) · [Open in Colab](https://colab.research.google.com/github/To-Data-Beyond/Generative-AI-Techanical-Tutorials/blob/main/Pandas_Essential_Functions.ipynb) | — |
