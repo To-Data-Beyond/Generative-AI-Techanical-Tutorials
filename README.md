@@ -9,6 +9,7 @@ Companion notebooks and code for To Data & Beyond's hands-on generative AI tutor
 
 | Series | Contents | Available notebooks |
 | --- | --- | --- |
+| **Data Structures for Data Science Coding Interviews** | [Series contents](./series/data-structures-interviews/) | Complete: Parts 1–2 |
 | **Efficient Python for Data Scientists** | [Series contents](./series/efficient-python/) | Complete: Parts 1–2 |
 | **Generative Adversarial Networks** | [Series contents](./series/generative-adversarial-networks/) | Complete: Parts 1, 2 and 5; conceptual Parts 3–4 linked |
 | **Hands-On LangChain for LLM Applications Development** | [Series contents](./series/hands-on-langchain/) | Parts 1–10 |
@@ -21,6 +22,7 @@ Companion notebooks and code for To Data & Beyond's hands-on generative AI tutor
 
 | Topic | Blog | Notebook | Video Tutorial |
 | --- | --- | --- | --- |
+| **What to Expect in a Data Science Coding Interview** | [Tutorial](https://todatabeyond.com/blog/what-to-expect-in-a-data-science-coding-interview) | [Notebook](./Coding_Interview_Expectations.ipynb) · [Open in Colab](https://colab.research.google.com/github/To-Data-Beyond/Generative-AI-Techanical-Tutorials/blob/main/Coding_Interview_Expectations.ipynb) | — |
 | **Probability Interview Questions & Answers** | [Tutorial](https://todatabeyond.com/blog/probability-interview-questions-and-answers-for-data-scientists) | [Notebook](./Probability_Interview_Questions.ipynb) · [Open in Colab](https://colab.research.google.com/github/To-Data-Beyond/Generative-AI-Techanical-Tutorials/blob/main/Probability_Interview_Questions.ipynb) | — |
 | **SQL & Database Interview Questions** | [Tutorial](https://todatabeyond.com/blog/sql-and-database-interview-questions-and-answers-for-data-scientists) | [Notebook](./SQL_Database_Interview_Questions.ipynb) · [Open in Colab](https://colab.research.google.com/github/To-Data-Beyond/Generative-AI-Techanical-Tutorials/blob/main/SQL_Database_Interview_Questions.ipynb) | — |
 | **K-Means: Elbow & Silhouette** | [Tutorial](https://todatabeyond.com/blog/stop-using-elbow-diagram-to-find-best-k-value-and-use-this-instead) | [Notebook](./KMeans_Elbow_and_Silhouette.ipynb) · [Open in Colab](https://colab.research.google.com/github/To-Data-Beyond/Generative-AI-Techanical-Tutorials/blob/main/KMeans_Elbow_and_Silhouette.ipynb) | — |
