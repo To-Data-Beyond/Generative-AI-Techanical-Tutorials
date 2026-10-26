@@ -9,6 +9,7 @@ Companion notebooks and code for To Data & Beyond's hands-on generative AI tutor
 
 | Series | Contents | Available notebooks |
 | --- | --- | --- |
+| **Python Data Science Interviews** | [Series contents](./series/python-data-science-interviews/) | Complete: Concepts, Preprocessing, Machine & Deep Learning |
 | **Data Structures for Data Science Coding Interviews** | [Series contents](./series/data-structures-interviews/) | Complete: Parts 1–2 |
 | **Efficient Python for Data Scientists** | [Series contents](./series/efficient-python/) | Complete: Parts 1–2 |
 | **Generative Adversarial Networks** | [Series contents](./series/generative-adversarial-networks/) | Complete: Parts 1, 2 and 5; conceptual Parts 3–4 linked |
