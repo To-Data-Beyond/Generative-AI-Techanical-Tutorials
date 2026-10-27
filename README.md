@@ -9,7 +9,7 @@ Companion notebooks and code for To Data & Beyond's hands-on generative AI tutor
 
 | Series | Contents | Available notebooks |
 | --- | --- | --- |
-| **Time Series with Python** | [Series contents](./series/time-series-python/) | Parts 1–3: Manipulation, Analysis, Visualization |
+| **Time Series with Python** | [Series contents](./series/time-series-python/) | Parts 1–6: Manipulation, Analysis, Visualization, ARIMA, SARIMA, ML Regression |
 | **CycleGAN Streamlit Deployment** | [Series contents](./series/cyclegan-streamlit-deployment/) | Complete: Parts 1–2; both official replacement generators |
 | **Python Data Science Interviews** | [Series contents](./series/python-data-science-interviews/) | Complete: Concepts, Preprocessing, Machine & Deep Learning |
 | **Data Structures for Data Science Coding Interviews** | [Series contents](./series/data-structures-interviews/) | Complete: Parts 1–2 |
