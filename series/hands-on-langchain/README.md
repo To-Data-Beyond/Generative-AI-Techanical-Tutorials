@@ -14,6 +14,9 @@ Companion notebooks for the Hands-On LangChain article series.
 | 8 | [Prompt Templates](https://todatabeyond.com/blog/hands-on-langchain-for-llm-applications-development-prompt-templates) | [Notebook](./Hands_On_LangChain_08_Prompt_Templates.ipynb) |
 | 9 | [Output Parsing](https://todatabeyond.com/blog/hands-on-langchain-for-llm-applications-development-output-parsing) | [Notebook](./Hands_On_LangChain_09_Output_Parsing.ipynb) |
 | 10 | [ChatBots Memory](https://todatabeyond.com/blog/hands-on-langchain-for-llms-app-chatbots-memory) | [Notebook](./Hands_On_LangChain_10_Chatbots_Memory.ipynb) |
+| 11 | [Chains](https://todatabeyond.com/blog/understanding-langchain-chains-for-large-language-model-application-development) | [Notebook](./Hands_On_LangChain_11_Chains.ipynb) |
+| 12 | [Building Agents](https://todatabeyond.com/blog/building-llm-agents-using-langchain-and-openai-api) | [Notebook](./Hands_On_LangChain_12_Agents.ipynb) |
+| 13 | [Evaluating LLM Applications](https://todatabeyond.com/blog/evaluating-llm-applications-using-langchain) | [Notebook](./Hands_On_LangChain_13_Evaluation.ipynb) |
 
 The notebooks create their own local sample files and verify their default paths
 without API keys. Parts 2 and 3 use current `langchain-text-splitters` APIs to
@@ -75,3 +78,31 @@ and deletion. Scripted summary and graph-node fixtures explicitly test wiring,
 not inference. Local model mistakes are retained and documented. All 22 original
 hosted steps are maintained in a disabled, unexecuted appendix. Legacy APIs are
 archive compatibility examples, not recommended new application interfaces.
+
+
+## Parts 11–13 — current LangChain notebooks
+
+These three companions use the author's updated book notebooks and were executed
+end to end in fresh Python 3.13.7 kernels with real OpenAI calls. They require a
+locally configured `OPENAI_API_KEY`; set `MODEL` (tested: `gpt-5.4-mini`) and
+`EMBEDDING_MODEL` (tested: `text-embedding-3-small`) as needed. Never put keys in
+notebook cells or commit a `.env` file. Model calls incur charges. Dependencies
+are pinned in each notebook; first-run installation and public data downloads
+need internet. The hosted default path can run in Colab after setting its key.
+
+Part 11 covers LCEL, named intermediate outputs and typed topic routing. Part 12
+uses the approved new ReAct and LangGraph examples, not the original unrestricted
+Python REPL agent. Its first weather tools are fixed teaching fixtures; the later
+DuckDuckGo tool makes actual read-only web searches, whose contents change over
+time. Multiple tool calls in one response execute sequentially in this graph.
+Part 13 uses the author's short `career-in-ai.md` teaching fixture, not the dropped
+draft ebook. It runs actual embeddings, question generation and structured model
+grading; the reported grades are model judgments, not independent ground truth.
+
+All 45 code cells passed (15/17/13). Independent checks cover named-key data flow,
+valid/invalid routing and grading schemas, cosine retrieval ranking, temperature
+arithmetic, unknown tools, two-argument dispatch, final returns and turn limits.
+Scripted regression probes test control flow only and are not inference results.
+One upstream pending-deprecation warning remains visible in the agent run.
+Every original archive code block and transcript is preserved in the
+nonexecuting appendices. Committed notebooks contain no saved outputs.

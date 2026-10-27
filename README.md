@@ -15,7 +15,7 @@ Companion notebooks and code for To Data & Beyond's hands-on generative AI tutor
 | **Data Structures for Data Science Coding Interviews** | [Series contents](./series/data-structures-interviews/) | Complete: Parts 1–2 |
 | **Efficient Python for Data Scientists** | [Series contents](./series/efficient-python/) | Complete: Parts 1–2 |
 | **Generative Adversarial Networks** | [Series contents](./series/generative-adversarial-networks/) | Complete: Parts 1, 2 and 5; conceptual Parts 3–4 linked |
-| **Hands-On LangChain for LLM Applications Development** | [Series contents](./series/hands-on-langchain/) | Parts 1–10 |
+| **Hands-On LangChain for LLM Applications Development** | [Series contents](./series/hands-on-langchain/) | Parts 1–13: including Chains, Agents and Evaluation |
 | **Building Agents with LangGraph** | [Series contents](./series/langgraph/) | Parts 3, 5, 6, and 7 |
 | **Building Multimodal RAG Application** | [Series contents](./series/multimodal-rag/) | Part 2 |
 | **Qwen 3 Mathematical Reasoning Fine-Tuning with GRPO** | [Series contents](./series/qwen-3-grpo/) | Shared Part 1–2 notebook |
