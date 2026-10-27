@@ -1,0 +1,22 @@
+{
+  "name": "tdb-stable-diffusion-client",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": { "start": "vite --host 127.0.0.1 --port 5173", "build": "vite build", "test": "vitest run --environment jsdom" },
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "@chakra-ui/react": "2.10.10",
+    "@emotion/react": "11.14.0",
+    "@emotion/styled": "11.14.1",
+    "framer-motion": "10.18.0",
+    "axios": "1.20.0"
+  },
+  "devDependencies": {
+    "vite": "8.3.5",
+    "vitest": "4.0.8",
+    "jsdom": "27.1.0",
+    "@testing-library/react": "16.3.0"
+  }
+}
