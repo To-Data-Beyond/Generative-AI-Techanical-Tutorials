@@ -9,6 +9,7 @@ Companion notebooks and code for To Data & Beyond's hands-on generative AI tutor
 
 | Series | Contents | Available notebooks |
 | --- | --- | --- |
+| **CycleGAN Streamlit Deployment** | [Series contents](./series/cyclegan-streamlit-deployment/) | Complete: Parts 1–2; both official replacement generators |
 | **Python Data Science Interviews** | [Series contents](./series/python-data-science-interviews/) | Complete: Concepts, Preprocessing, Machine & Deep Learning |
 | **Data Structures for Data Science Coding Interviews** | [Series contents](./series/data-structures-interviews/) | Complete: Parts 1–2 |
 | **Efficient Python for Data Scientists** | [Series contents](./series/efficient-python/) | Complete: Parts 1–2 |
@@ -23,6 +24,7 @@ Companion notebooks and code for To Data & Beyond's hands-on generative AI tutor
 
 | Topic | Blog | Notebook | Video Tutorial |
 | --- | --- | --- | --- |
+| **Stable Diffusion Web App: FastAPI & React** | [Tutorial](https://todatabeyond.com/blog/stable-diffusion-based-image-generation-web-application-using-fast-api-and-react) | [Notebook](./Stable_Diffusion_Web_App.ipynb) · [Open in Colab](https://colab.research.google.com/github/To-Data-Beyond/Generative-AI-Techanical-Tutorials/blob/main/Stable_Diffusion_Web_App.ipynb) · [Application](./apps/stable-diffusion-web/) | — |
 | **YOLO Object Detection with FastAPI** | [Tutorial](https://todatabeyond.com/blog/step-by-step-guide-on-deploying-yolo-model-on-fast-api) | [Notebook](./YOLO_FastAPI_Deployment.ipynb) · [Open in Colab](https://colab.research.google.com/github/To-Data-Beyond/Generative-AI-Techanical-Tutorials/blob/main/YOLO_FastAPI_Deployment.ipynb) | — |
 | **English & Arabic Text-to-Speech** | [Tutorial](https://todatabeyond.com/blog/building-text-to-speech-systems-using-vits-and-artst-models) | [Notebook](./VITS_ArTST_Text_to_Speech.ipynb) · [Open in Colab](https://colab.research.google.com/github/To-Data-Beyond/Generative-AI-Techanical-Tutorials/blob/main/VITS_ArTST_Text_to_Speech.ipynb) | — |
 | **Getting Started with Stable Diffusion** | [Tutorial](https://todatabeyond.com/blog/getting-started-with-stable-diffusion) | [Notebook](./Stable_Diffusion_Introduction.ipynb) · [Open in Colab](https://colab.research.google.com/github/To-Data-Beyond/Generative-AI-Techanical-Tutorials/blob/main/Stable_Diffusion_Introduction.ipynb) | — |
