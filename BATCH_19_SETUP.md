@@ -23,8 +23,8 @@ notebook and follow its own setup in a separate fresh environment, since their
 dependencies differ. Package/model/data downloads may need internet.
 
 The new [vectorized reward companion](./Pandas_Vectorized_Reward_Calculation.ipynb)
-uses numpy2.3.3/pandas3.1.0 and all10000 seeded synthetic rows. It compares actual
-timings without guaranteeing a1000-fold gain, checks equality/boundaries and
+uses NumPy 2.3.3 / pandas 3.1.0 and all 10,000 seeded synthetic rows. It compares actual
+timings without guaranteeing a 1000-fold gain, checks equality/boundaries and
 preserves every original block in its appendix. It needs no API key.
 
 The prompt/parsing/memory notebooks run local default paths; fixture-based
