@@ -1,0 +1,11 @@
+{
+  "name": "tensorflow-ecosystem-demo",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node tfjs-example.mjs",
+    "build": "esbuild tfjs-example.mjs --bundle --format=esm --outfile=dist/example.js"
+  },
+  "dependencies": {"@tensorflow/tfjs": "4.22.0"},
+  "devDependencies": {"esbuild": "0.25.12"}
+}
