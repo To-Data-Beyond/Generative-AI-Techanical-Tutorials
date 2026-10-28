@@ -1,0 +1,23 @@
+# 9 Free Kaggle Notebooks to Write Efficient Python Code
+
+[Read the collection guide](https://todatabeyond.com/blog/9-free-kaggle-notebooks-to-write-efficient-python-code).
+
+The canonical notebooks stay in their existing locations; this collection has its own contents table rather than duplicate notebook copies. Original Kaggle links are retained.
+
+| # | Topic | Maintained notebook | Website tutorial | Original Kaggle resource |
+| --- | --- | --- | --- | --- |
+| 1 | Write Efficient Python Code: Defining & Measuring Code Efficiency | [Notebook](https://github.com/To-Data-Beyond/Generative-AI-Techanical-Tutorials/blob/main/series/efficient-python/Python_Efficiency_Measurement.ipynb) | [Article](https://todatabeyond.com/blog/write-efficient-python-code-for-data-scientists-defining-and-measuring-code-efficiency) | [Kaggle](https://www.kaggle.com/code/youssef19/measuring-python-code-efficiency) |
+| 2 | Write Efficient Python Code: Optimizing Your Code | [Notebook](https://github.com/To-Data-Beyond/Generative-AI-Techanical-Tutorials/blob/main/series/efficient-python/Python_Code_Optimization.ipynb) | [Article](https://todatabeyond.com/blog/write-efficient-python-code-for-data-scientists-optimizing-your-code) | [Kaggle](https://www.kaggle.com/code/youssef19/python-code-optimization-for-data-scientists) |
+| 3 | How To Eliminate Loops From Your Python Code? | [Notebook](https://github.com/To-Data-Beyond/Generative-AI-Techanical-Tutorials/blob/main/Python_Loop_Alternatives.ipynb) | [Article](https://todatabeyond.com/blog/how-to-eliminate-loops-from-your-python-code) | [Kaggle](https://www.kaggle.com/code/youssef19/how-to-eliminate-loops-from-your-python-code) |
+| 4 | Stop Looping Through Pandas DataFrames & Do This Instead | [Notebook](https://github.com/To-Data-Beyond/Generative-AI-Techanical-Tutorials/blob/main/Pandas_Loop_Alternatives.ipynb) | [Article](https://todatabeyond.com/blog/stop-looping-through-pandas-dataframes-and-do-this-instead) | [Kaggle](https://www.kaggle.com/code/youssef19/stop-looping-through-pandas-dataframes) |
+| 5 | Selecting & Replacing Values In Pandas DataFrame Effectively | [Notebook](https://github.com/To-Data-Beyond/Generative-AI-Techanical-Tutorials/blob/main/Pandas_Value_Selection_and_Replacement.ipynb) | [Article](https://todatabeyond.com/blog/selecting-and-replacing-values-in-pandas-dataframe-effectively) | [Kaggle](https://www.kaggle.com/youssef19/selecting-replacing-values-in-pandas-effectively) |
+| 6 | How To Use .groupby() Effectively For Data Transformation As A Data Scientist | [Notebook](https://github.com/To-Data-Beyond/Generative-AI-Techanical-Tutorials/blob/main/Pandas_Groupby_Transform_and_Filter.ipynb) | [Article](https://todatabeyond.com/blog/how-to-use-groupby-effectively-as-a-data-scientist) | [Kaggle](https://www.kaggle.com/code/youssef19/how-to-use-groupby-effectively-as-a-data-scient) |
+| 7 | 20 Pandas Functions for 80% of Your Data Science Tasks | [Notebook](https://github.com/To-Data-Beyond/Generative-AI-Techanical-Tutorials/blob/main/Pandas_Essential_Functions.ipynb) | [Article](https://todatabeyond.com/blog/20-pandas-functions-for-80-of-your-data-science-tasks) | [Kaggle](https://www.kaggle.com/code/youssef19/20-pandas-functions-for-80-data-science-tasks) |
+| 8 | Make Your Pandas Code 1000 Times Faster With This Trick | [Notebook](https://github.com/To-Data-Beyond/Generative-AI-Techanical-Tutorials/blob/main/Pandas_Vectorized_Reward_Calculation.ipynb) | — | [Kaggle](https://www.kaggle.com/code/youssef19/make-your-pandas-code-1000-times-faster) |
+| 9 | Maximizing Pandas Efficiency: Top 10 Mistakes to Steer Clear of in Your Code | [Notebook](https://github.com/To-Data-Beyond/Generative-AI-Techanical-Tutorials/blob/main/Pandas_Common_Mistakes.ipynb) | [Article](https://todatabeyond.com/blog/maximizing-pandas-efficiency-top-10-mistakes-to-steer-clear-of-in-your-code) | [Kaggle](https://www.kaggle.com/code/youssef19/top-10-pandas-mistakes-to-avoid) |
+
+## Running the examples
+
+Run each notebook from top to bottom in its own fresh environment using its setup instructions. First-run package/model/data downloads need internet. Notebooks are committed without saved outputs.
+
+The vectorized reward-calculation companion uses seeded fictional data and measured local timings, not a guaranteed 1000-fold speedup. Its three methods agree on all rows and age/sleep boundary cases. Existing profilers and source datasets are retained; timing results vary by runtime.
