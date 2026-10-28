@@ -23,8 +23,13 @@ Companion notebooks and code for To Data & Beyond's hands-on generative AI tutor
 
 ## Standalone tutorials
 
+[Setup and validation notes for the Phi-1.5, TensorFlow and portfolio-tool companions](./BATCH_18_SETUP.md).
+
 | Topic | Blog | Notebook | Video Tutorial |
 | --- | --- | --- | --- |
+| **Textbooks Are All You Need: Microsoft PHI-1.5 Model with 1.3 Billion Parameters** | [Tutorial](https://todatabeyond.com/blog/textbooks-are-all-you-need-microsoft-phi-1-5-model-with-1-3-billion-parameters) | [Notebook](./Phi_1_5_Textbook_Data.ipynb) · [Colab](https://colab.research.google.com/github/To-Data-Beyond/Generative-AI-Techanical-Tutorials/blob/main/Phi_1_5_Textbook_Data.ipynb) | — |
+| **Exploring the TensorFlow Ecosystem: A Comprehensive Overview** | [Tutorial](https://todatabeyond.com/blog/exploring-the-tensorflow-ecosystem-a-comprehensive-overview) | [Notebook](./TensorFlow_Ecosystem.ipynb) · [Colab](https://colab.research.google.com/github/To-Data-Beyond/Generative-AI-Techanical-Tutorials/blob/main/TensorFlow_Ecosystem.ipynb) | — |
+| **5 Game-Changing Free Tools to Enhance Your Data Science Portfolio** | [Tutorial](https://todatabeyond.com/blog/5-game-changing-free-tools-to-enhance-your-data-science-portfolio) | [Notebook](./Data_Science_Portfolio_Tools.ipynb) · [Colab](https://colab.research.google.com/github/To-Data-Beyond/Generative-AI-Techanical-Tutorials/blob/main/Data_Science_Portfolio_Tools.ipynb) | — |
 | **Stable Diffusion Web App: FastAPI & React** | [Tutorial](https://todatabeyond.com/blog/stable-diffusion-based-image-generation-web-application-using-fast-api-and-react) | [Notebook](./Stable_Diffusion_Web_App.ipynb) · [Open in Colab](https://colab.research.google.com/github/To-Data-Beyond/Generative-AI-Techanical-Tutorials/blob/main/Stable_Diffusion_Web_App.ipynb) · [Application](./apps/stable-diffusion-web/) | — |
 | **YOLO Object Detection with FastAPI** | [Tutorial](https://todatabeyond.com/blog/step-by-step-guide-on-deploying-yolo-model-on-fast-api) | [Notebook](./YOLO_FastAPI_Deployment.ipynb) · [Open in Colab](https://colab.research.google.com/github/To-Data-Beyond/Generative-AI-Techanical-Tutorials/blob/main/YOLO_FastAPI_Deployment.ipynb) | — |
 | **English & Arabic Text-to-Speech** | [Tutorial](https://todatabeyond.com/blog/building-text-to-speech-systems-using-vits-and-artst-models) | [Notebook](./VITS_ArTST_Text_to_Speech.ipynb) · [Open in Colab](https://colab.research.google.com/github/To-Data-Beyond/Generative-AI-Techanical-Tutorials/blob/main/VITS_ArTST_Text_to_Speech.ipynb) | — |
