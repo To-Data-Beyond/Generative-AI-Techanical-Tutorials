@@ -14,6 +14,9 @@ Parts 1–2, then explore iterative prompt development using the contents below.
 | Prompt Engineering Best Practices: Text Expansion | [Article](https://todatabeyond.com/blog/prompt-engineering-best-practices-text-expansion) | [Notebook](./07_Text_Expansion.ipynb) | [Open](https://colab.research.google.com/github/To-Data-Beyond/Generative-AI-Techanical-Tutorials/blob/main/series/prompt-engineering/07_Text_Expansion.ipynb) |
 | Prompt Engineering Best Practices: Building Chatbots | [Article](https://todatabeyond.com/blog/prompt-engineering-best-practices-building-chatbots) | [Notebook](./08_Building_Chatbots.ipynb) | [Open](https://colab.research.google.com/github/To-Data-Beyond/Generative-AI-Techanical-Tutorials/blob/main/series/prompt-engineering/08_Building_Chatbots.ipynb) |
 | Prompt Engineering Best Practices: Chain of Thought Reasoning | [Article](https://todatabeyond.com/blog/prompt-engineering-best-practices-chain-of-thought-reasoning) | [Notebook](./09_Structured_Reasoning.ipynb) | [Open](https://colab.research.google.com/github/To-Data-Beyond/Generative-AI-Techanical-Tutorials/blob/main/series/prompt-engineering/09_Structured_Reasoning.ipynb) |
+| Prompt Engineering Best Practices: LLM Output Validation & Evaluation | [Article](https://todatabeyond.com/blog/prompt-engineering-best-practices-llm-output-validation-and-evaluation) | [Notebook](./10_Output_Validation.ipynb) | [Open](https://colab.research.google.com/github/To-Data-Beyond/Generative-AI-Techanical-Tutorials/blob/main/series/prompt-engineering/10_Output_Validation.ipynb) |
+| Prompt Engineering Best Practices: Building an End-to-End Customer Service System | [Article](https://todatabeyond.com/blog/prompt-engineering-best-practices-building-an-end-to-end-customer-service-system) | [Notebook](./11_End_to_End_Customer_Service.ipynb) | [Open](https://colab.research.google.com/github/To-Data-Beyond/Generative-AI-Techanical-Tutorials/blob/main/series/prompt-engineering/11_End_to_End_Customer_Service.ipynb) |
+| Testing Prompt Engineering-Based LLM Applications | [Article](https://todatabeyond.com/blog/testing-prompt-engineering-based-llm-applications) | [Notebook](./12_Testing_LLM_Applications.ipynb) | [Open](https://colab.research.google.com/github/To-Data-Beyond/Generative-AI-Techanical-Tutorials/blob/main/series/prompt-engineering/12_Testing_LLM_Applications.ipynb) |
 
 ## Setup
 
@@ -105,3 +108,52 @@ sections; visible factual findings are not private model reasoning. A test was
 corrected to accept the valid curly apostrophe in “don’t”, then the complete
 notebook reran. All 31 original pre blocks and 21 transcripts remain verbatim
 in nonexecuting appendices. Git notebooks have no outputs or credentials.
+
+
+## Validation, end-to-end workflows and testing
+
+All 42 code cells (10/16/16) passed in fresh Python 3.13.7 kernels with actual
+configured-model calls and standalone omni-moderation-latest requests. Original
+54 code blocks and 23 historical transcripts remain verbatim in nonexecuting
+appendices. Git notebooks contain no saved outputs or credentials.
+
+Output validation checks benign and insulting text, rejects two unrelated
+answers and accepts a source-grounded positive control. Y/N parsing is exact.
+These checks do not guarantee safety or universal factual correctness.
+
+The complete seven-product catalog comes from the author's validation article;
+all six categories/thirty names in the testing inventory come from that source
+article. No unlicensed external helper/catalog was copied, and no extra
+product specifications were invented. Unknown phone, book and fridge requests
+stay within catalog scope; there is no actual human handoff or store order.
+
+The service notebook tests all four original queries and two real registered
+Panel button callbacks, retaining the phone context for a warranty follow-up.
+The standalone app is source-equal to its definition cells:
+
+```bash
+panel serve series/prompt-engineering/customer_service.py --address 127.0.0.1 --port 5007
+```
+
+Keep keys server-side. User/model text is escaped; state is isolated by factory.
+A separate offline fault-injection suite tests blocked moderation, malformed or
+unknown extraction, rejected/invalid judgments and incomplete/API failures:
+
+```bash
+cd series/prompt-engineering
+python -B -m unittest test_customer_service.py
+```
+
+Those fault tests replace stage boundaries and prohibit HTTP; they are not
+model-quality tests and do not substitute for the fresh notebook runs.
+The caller's history stays unchanged on failures, and successful turns append
+both user and final assistant messages.
+
+The testing guide retains all ten original messages. The explicit retrieval
+contract treats broad category questions as candidate retrieval, not ranked
+recommendations, and selects only MobiTech Wireless Charger for the charger
+case: the name-only inventory does not establish charging features for
+PowerCase/EarBuds. Full-map exact matching rejects missing and extra categories,
+duplicates, unknown/misplaced products and invalid JSON. The captured v2 run
+scores 10/10 on these reused development cases, not an untouched test set.
+Further runs may vary. Keep a truly held-out set out of prompt tuning.
