@@ -29,6 +29,8 @@ Companion notebooks and code for To Data & Beyond's hands-on generative AI tutor
 
 | Topic | Blog | Notebook | Video Tutorial |
 | --- | --- | --- | --- |
+| **Zvec: A Lightweight Embedded Vector Database for RAG Systems** | [Tutorial](https://todatabeyond.com/blog/zvec-a-lightweight-embedded-vector-database-for-rag-systems) | [Notebook](./Zvec_Embedded_RAG.ipynb) | — |
+| **Leveraging Geospatial Data in Python with GeoPandas** | [Tutorial](https://todatabeyond.com/blog/leveraging-geospatial-data-in-python-with-geopandas) | [Notebook](./GeoPandas_Spatial_Analysis.ipynb) | — |
 | **Getting Started with Gemini API: A Comprehensive Practical Guide** | [Tutorial](https://todatabeyond.com/blog/getting-started-with-gemini-api-a-comprehensive-practical-guide) | [Notebook](./Gemini_API_Guide.ipynb) | — |
 | **Is It Necessary to Use a Specialized In-Memory Database?** | [Tutorial](https://todatabeyond.com/blog/is-it-necessary-to-use-a-specialized-in-memory-database) | [Notebook](./In_Memory_SPL.ipynb) | — |
 | **Fine-Tuning a Small Language Model with PEFT to Generate Midjourney Prompts** | [Tutorial](https://todatabeyond.com/blog/fine-tuning-small-language-model-peft-midjourney-prompts) | [Notebook](./Prompt_Fine_Tuning_PEFT.ipynb) | — |
