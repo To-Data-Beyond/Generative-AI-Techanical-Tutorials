@@ -1,0 +1,15 @@
+FROM python:3.12-bookworm AS build
+WORKDIR /app
+COPY requirements.train.txt ./requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
+COPY train.py ./
+COPY data/ ./data/
+RUN python train.py
+
+FROM python:3.12-slim-bookworm AS runtime
+WORKDIR /app
+COPY requirements.runtime.txt ./requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
+COPY --from=build /app/models ./models
+COPY predict.py ./
+CMD ["python", "predict.py"]

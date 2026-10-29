@@ -1,0 +1,7 @@
+FROM python:3.12-slim-bookworm
+WORKDIR /app
+COPY requirements.plot.txt ./requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
+COPY my_script.py ./
+COPY data/ ./data/
+CMD ["python", "my_script.py"]

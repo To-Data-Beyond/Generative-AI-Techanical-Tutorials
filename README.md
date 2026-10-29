@@ -29,6 +29,9 @@ Companion notebooks and code for To Data & Beyond's hands-on generative AI tutor
 
 | Topic | Blog | Notebook | Video Tutorial |
 | --- | --- | --- | --- |
+| **Get More Done in Less Time: 20 Essential Linux Commands for 80 % of Tasks** | [Tutorial](https://todatabeyond.com/blog/get-more-done-in-less-time-20-essential-linux-commands-for-80-of-tasks) | [Notebook](./Linux_Essential_Commands.ipynb) | — |
+| **Industry-Wide Best Practices For Using Docker for Data Science** | [Tutorial](https://todatabeyond.com/blog/industry-wide-best-practices-for-using-docker-for-data-science) | [Notebook](./Docker_Data_Science_Best_Practices.ipynb) | — |
+| **10 Docker Commands for 90% of Containerization Tasks** | [Tutorial](https://todatabeyond.com/blog/10-docker-commands-for-90-of-containerization-tasks) | [Notebook](./Docker_Essential_Commands.ipynb) | — |
 | **9 Free Kaggle Notebooks to Write Efficient Python Code** | [Tutorial](https://todatabeyond.com/blog/9-free-kaggle-notebooks-to-write-efficient-python-code) | [Notebook](./collections/efficient-python/Index.ipynb) · [Colab](https://colab.research.google.com/github/To-Data-Beyond/Generative-AI-Techanical-Tutorials/blob/main/collections/efficient-python/Index.ipynb) | — |
 | **6 Kaggle Notebooks to Build a Strong Foundation in LangChain** | [Tutorial](https://todatabeyond.com/blog/6-kaggle-notebooks-to-build-a-strong-foundation-in-langchain) | [Notebook](./collections/langchain-foundations/Index.ipynb) · [Colab](https://colab.research.google.com/github/To-Data-Beyond/Generative-AI-Techanical-Tutorials/blob/main/collections/langchain-foundations/Index.ipynb) | — |
 | **LangChain vs LlamaIndex: A Detailed Comparison** | [Tutorial](https://todatabeyond.com/blog/langchain-vs-llamaindex-a-detailed-comparison) | [Notebook](./LangChain_vs_LlamaIndex.ipynb) · [Colab](https://colab.research.google.com/github/To-Data-Beyond/Generative-AI-Techanical-Tutorials/blob/main/LangChain_vs_LlamaIndex.ipynb) | — |
