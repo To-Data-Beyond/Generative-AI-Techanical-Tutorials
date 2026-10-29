@@ -29,6 +29,9 @@ Companion notebooks and code for To Data & Beyond's hands-on generative AI tutor
 
 | Topic | Blog | Notebook | Video Tutorial |
 | --- | --- | --- | --- |
+| **Getting Started with Gemini API: A Comprehensive Practical Guide** | [Tutorial](https://todatabeyond.com/blog/getting-started-with-gemini-api-a-comprehensive-practical-guide) | [Notebook](./Gemini_API_Guide.ipynb) | — |
+| **Is It Necessary to Use a Specialized In-Memory Database?** | [Tutorial](https://todatabeyond.com/blog/is-it-necessary-to-use-a-specialized-in-memory-database) | [Notebook](./In_Memory_SPL.ipynb) | — |
+| **Fine-Tuning a Small Language Model with PEFT to Generate Midjourney Prompts** | [Tutorial](https://todatabeyond.com/blog/fine-tuning-small-language-model-peft-midjourney-prompts) | [Notebook](./Prompt_Fine_Tuning_PEFT.ipynb) | — |
 | **Falcon40 LLM: The Top Recent Open-Source LLMs** | [Tutorial](https://todatabeyond.com/blog/falcon40-llm-the-top-recent-open-source-llms) | [Notebook](./Falcon_7B_Instruct.ipynb) | — |
 | **Parameter-Efficient Fine-Tuning (PEFT): Fine-tune Large Language Models with Limited Resources** | [Tutorial](https://todatabeyond.com/blog/parameter-efficient-fine-tuning-peft-fine-tune-large-language-models-with-limited-resources) | [Notebook](./PEFT_LoRA_and_QLoRA.ipynb) | — |
 | **Get More Done in Less Time: 20 Essential Linux Commands for 80 % of Tasks** | [Tutorial](https://todatabeyond.com/blog/get-more-done-in-less-time-20-essential-linux-commands-for-80-of-tasks) | [Notebook](./Linux_Essential_Commands.ipynb) | — |
