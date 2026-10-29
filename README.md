@@ -23,10 +23,15 @@ Companion notebooks and code for To Data & Beyond's hands-on generative AI tutor
 
 ## Standalone tutorials
 
+[Setup and validation scope for the framework comparison and notebook collections](./BATCH_19_SETUP.md).
+
 [Setup and validation notes for the Phi-1.5, TensorFlow and portfolio-tool companions](./BATCH_18_SETUP.md).
 
 | Topic | Blog | Notebook | Video Tutorial |
 | --- | --- | --- | --- |
+| **9 Free Kaggle Notebooks to Write Efficient Python Code** | [Tutorial](https://todatabeyond.com/blog/9-free-kaggle-notebooks-to-write-efficient-python-code) | [Notebook](./collections/efficient-python/Index.ipynb) · [Colab](https://colab.research.google.com/github/To-Data-Beyond/Generative-AI-Techanical-Tutorials/blob/main/collections/efficient-python/Index.ipynb) | — |
+| **6 Kaggle Notebooks to Build a Strong Foundation in LangChain** | [Tutorial](https://todatabeyond.com/blog/6-kaggle-notebooks-to-build-a-strong-foundation-in-langchain) | [Notebook](./collections/langchain-foundations/Index.ipynb) · [Colab](https://colab.research.google.com/github/To-Data-Beyond/Generative-AI-Techanical-Tutorials/blob/main/collections/langchain-foundations/Index.ipynb) | — |
+| **LangChain vs LlamaIndex: A Detailed Comparison** | [Tutorial](https://todatabeyond.com/blog/langchain-vs-llamaindex-a-detailed-comparison) | [Notebook](./LangChain_vs_LlamaIndex.ipynb) · [Colab](https://colab.research.google.com/github/To-Data-Beyond/Generative-AI-Techanical-Tutorials/blob/main/LangChain_vs_LlamaIndex.ipynb) | — |
 | **Textbooks Are All You Need: Microsoft PHI-1.5 Model with 1.3 Billion Parameters** | [Tutorial](https://todatabeyond.com/blog/textbooks-are-all-you-need-microsoft-phi-1-5-model-with-1-3-billion-parameters) | [Notebook](./Phi_1_5_Textbook_Data.ipynb) · [Colab](https://colab.research.google.com/github/To-Data-Beyond/Generative-AI-Techanical-Tutorials/blob/main/Phi_1_5_Textbook_Data.ipynb) | — |
 | **Exploring the TensorFlow Ecosystem: A Comprehensive Overview** | [Tutorial](https://todatabeyond.com/blog/exploring-the-tensorflow-ecosystem-a-comprehensive-overview) | [Notebook](./TensorFlow_Ecosystem.ipynb) · [Colab](https://colab.research.google.com/github/To-Data-Beyond/Generative-AI-Techanical-Tutorials/blob/main/TensorFlow_Ecosystem.ipynb) | — |
 | **5 Game-Changing Free Tools to Enhance Your Data Science Portfolio** | [Tutorial](https://todatabeyond.com/blog/5-game-changing-free-tools-to-enhance-your-data-science-portfolio) | [Notebook](./Data_Science_Portfolio_Tools.ipynb) · [Colab](https://colab.research.google.com/github/To-Data-Beyond/Generative-AI-Techanical-Tutorials/blob/main/Data_Science_Portfolio_Tools.ipynb) | — |
