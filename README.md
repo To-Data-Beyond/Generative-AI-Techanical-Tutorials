@@ -29,6 +29,8 @@ Companion notebooks and code for To Data & Beyond's hands-on generative AI tutor
 
 | Topic | Blog | Notebook | Video Tutorial |
 | --- | --- | --- | --- |
+| **Falcon40 LLM: The Top Recent Open-Source LLMs** | [Tutorial](https://todatabeyond.com/blog/falcon40-llm-the-top-recent-open-source-llms) | [Notebook](./Falcon_7B_Instruct.ipynb) | — |
+| **Parameter-Efficient Fine-Tuning (PEFT): Fine-tune Large Language Models with Limited Resources** | [Tutorial](https://todatabeyond.com/blog/parameter-efficient-fine-tuning-peft-fine-tune-large-language-models-with-limited-resources) | [Notebook](./PEFT_LoRA_and_QLoRA.ipynb) | — |
 | **Get More Done in Less Time: 20 Essential Linux Commands for 80 % of Tasks** | [Tutorial](https://todatabeyond.com/blog/get-more-done-in-less-time-20-essential-linux-commands-for-80-of-tasks) | [Notebook](./Linux_Essential_Commands.ipynb) | — |
 | **Industry-Wide Best Practices For Using Docker for Data Science** | [Tutorial](https://todatabeyond.com/blog/industry-wide-best-practices-for-using-docker-for-data-science) | [Notebook](./Docker_Data_Science_Best_Practices.ipynb) | — |
 | **10 Docker Commands for 90% of Containerization Tasks** | [Tutorial](https://todatabeyond.com/blog/10-docker-commands-for-90-of-containerization-tasks) | [Notebook](./Docker_Essential_Commands.ipynb) | — |
