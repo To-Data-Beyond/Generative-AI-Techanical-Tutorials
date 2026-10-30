@@ -29,6 +29,7 @@ Companion notebooks and code for To Data & Beyond's hands-on generative AI tutor
 
 | Topic | Blog | Notebook | Video Tutorial |
 | --- | --- | --- | --- |
+| **DINOv2: Self-Supervised Computer Vision Models by Meta AI** | [Tutorial](https://todatabeyond.com/blog/dinov2-self-supervised-computer-vision-models-by-meta-ai) | [Notebook](./DINOv2_Visual_Features.ipynb) | — |
 | **Zvec: A Lightweight Embedded Vector Database for RAG Systems** | [Tutorial](https://todatabeyond.com/blog/zvec-a-lightweight-embedded-vector-database-for-rag-systems) | [Notebook](./Zvec_Embedded_RAG.ipynb) | — |
 | **Leveraging Geospatial Data in Python with GeoPandas** | [Tutorial](https://todatabeyond.com/blog/leveraging-geospatial-data-in-python-with-geopandas) | [Notebook](./GeoPandas_Spatial_Analysis.ipynb) | — |
 | **Getting Started with Gemini API: A Comprehensive Practical Guide** | [Tutorial](https://todatabeyond.com/blog/getting-started-with-gemini-api-a-comprehensive-practical-guide) | [Notebook](./Gemini_API_Guide.ipynb) | — |
