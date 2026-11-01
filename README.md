@@ -16,7 +16,8 @@ Companion notebooks and code for To Data & Beyond's hands-on generative AI tutor
 | **Efficient Python for Data Scientists** | [Series contents](./series/efficient-python/) | Complete: Parts 1–2 |
 | **Generative Adversarial Networks** | [Series contents](./series/generative-adversarial-networks/) | Complete: Parts 1, 2 and 5; conceptual Parts 3–4 linked |
 | **Hands-On LangChain for LLM Applications Development** | [Series contents](./series/hands-on-langchain/) | Parts 1–13: including Chains, Agents and Evaluation |
-| **Building Agents with LangGraph** | [Series contents](./series/langgraph/) | Parts 3, 5, 6, and 7 |
+| **Building Agents with LangGraph** | [Series contents](./series/langgraph/) | Parts 3, 4, 5, 6, and 7 |
+| **Hands-On LangSmith** | [Series contents](./series/langsmith/) | Parts 1–3; notebooks for Parts 2–3 |
 | **Building Multimodal RAG Application** | [Series contents](./series/multimodal-rag/) | Part 2 |
 | **Qwen 3 Mathematical Reasoning Fine-Tuning with GRPO** | [Series contents](./series/qwen-3-grpo/) | Shared Part 1–2 notebook |
 | **Managing Agentic Memory with LangMem** | [Series contents](./series/langmem/) | Complete: Parts 2–5 (Part 1 is conceptual) |
@@ -29,6 +30,9 @@ Companion notebooks and code for To Data & Beyond's hands-on generative AI tutor
 
 | Topic | Blog | Notebook | Video Tutorial |
 | --- | --- | --- | --- |
+| **Building Agents with LangGraph #4: Agentic Web Search** | [Tutorial](https://todatabeyond.com/blog/building-agents-with-langgraph-4-agentic-web-search) | [Notebook](./series/langgraph/LangGraph_Series_4_Agentic_Web_Search.ipynb) | — |
+| **Hands-On LangSmith Series #2: Tracing with LangSmith** | [Tutorial](https://todatabeyond.com/blog/hands-on-langsmith-series-2-tracing-with-langsmith) | [Notebook](./series/langsmith/LangSmith_2_Tracing.ipynb) | — |
+| **Hands-On LangSmith Series #3: Playground & Prompts Hub** | [Tutorial](https://todatabeyond.com/blog/hands-on-langsmith-series-3-playground-and-prompts-hub) | [Notebook](./series/langsmith/LangSmith_3_Prompts_and_Playground.ipynb) | — |
 | **DINOv2: Self-Supervised Computer Vision Models by Meta AI** | [Tutorial](https://todatabeyond.com/blog/dinov2-self-supervised-computer-vision-models-by-meta-ai) | [Notebook](./DINOv2_Visual_Features.ipynb) | — |
 | **Zvec: A Lightweight Embedded Vector Database for RAG Systems** | [Tutorial](https://todatabeyond.com/blog/zvec-a-lightweight-embedded-vector-database-for-rag-systems) | [Notebook](./Zvec_Embedded_RAG.ipynb) | — |
 | **Leveraging Geospatial Data in Python with GeoPandas** | [Tutorial](https://todatabeyond.com/blog/leveraging-geospatial-data-in-python-with-geopandas) | [Notebook](./GeoPandas_Spatial_Analysis.ipynb) | — |
