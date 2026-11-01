@@ -30,6 +30,9 @@ Companion notebooks and code for To Data & Beyond's hands-on generative AI tutor
 
 | Topic | Blog | Notebook | Video Tutorial |
 | --- | --- | --- | --- |
+| **Ensemble Learning Techniques: A Walkthrough with Random Forests in Python** | [Tutorial](https://todatabeyond.com/blog/ensemble-learning-techniques-a-walkthrough-with-random-forests-in-python) | [Notebook](./Ensemble_Learning_Python.ipynb) | — |
+| **Revolutionizing Data Analysis with PandasGUI** | [Tutorial](https://todatabeyond.com/blog/revolutionizing-data-analysis-with-pandasgui) | [Notebook](./PandasGUI_Data_Analysis.ipynb) | — |
+| **Docker for Data Science Projects: A Beginner-Friendly Introduction** | [Tutorial](https://todatabeyond.com/blog/docker-for-data-science-projects-a-beginner-friendly-introduction) | [Notebook](./series/docker/Docker_Data_Science_Introduction.ipynb) | — |
 | **Building Agents with LangGraph #4: Agentic Web Search** | [Tutorial](https://todatabeyond.com/blog/building-agents-with-langgraph-4-agentic-web-search) | [Notebook](./series/langgraph/LangGraph_Series_4_Agentic_Web_Search.ipynb) | — |
 | **Hands-On LangSmith Series #2: Tracing with LangSmith** | [Tutorial](https://todatabeyond.com/blog/hands-on-langsmith-series-2-tracing-with-langsmith) | [Notebook](./series/langsmith/LangSmith_2_Tracing.ipynb) | — |
 | **Hands-On LangSmith Series #3: Playground & Prompts Hub** | [Tutorial](https://todatabeyond.com/blog/hands-on-langsmith-series-3-playground-and-prompts-hub) | [Notebook](./series/langsmith/LangSmith_3_Prompts_and_Playground.ipynb) | — |
