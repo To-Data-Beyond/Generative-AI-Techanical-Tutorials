@@ -1,0 +1,4 @@
+# Match the pinned official project's own tool.uv.override-dependencies.
+Pillow==13.0.0
+cryptography==50.0.2
+pynacl>=1.6,<1.7

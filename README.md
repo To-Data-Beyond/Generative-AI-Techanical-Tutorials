@@ -31,6 +31,9 @@ Companion notebooks and code for To Data & Beyond's hands-on generative AI tutor
 
 | Topic | Blog | Notebook | Video Tutorial |
 | --- | --- | --- | --- |
+| **How to Scrape JavaScript-Heavy Websites for LLM Pipelines with Cloudflare Browser Rendering** | [Tutorial](https://todatabeyond.com/blog/how-to-scrape-javascript-heavy-websites-for-llm-pipelines-with-cloudflare-browser-rendering) | [Notebook](./Cloudflare_Browser_Rendering.ipynb) | — |
+| **How to Create Loops with Claude Code: A Practical Guide to Agentic Automation** | [Tutorial](https://todatabeyond.com/blog/how-to-create-loops-with-claude-code-a-practical-guide-to-agentic-automation) | [Notebook](./Claude_Code_Loops.ipynb) | — |
+| **Hermes Agent 101: A Practical Guide to Persistent and Self-Improving Agents** | [Tutorial](https://todatabeyond.com/blog/hermes-agent-101-a-practical-guide-to-persistent-and-self-improving-agents) | [Notebook](./Hermes_Agent_101.ipynb) | — |
 | **MCP-Powered Agentic RAG — Part 1** | [Tutorial](https://todatabeyond.com/blog/building-mcp-powered-agentic-rag-application-step-by-step-guide-1-2) | [Notebook](./series/mcp-agentic-rag/MCP_Agentic_RAG_1.ipynb) | — |
 | **MCP-Powered Agentic RAG — Part 2** | [Tutorial](https://todatabeyond.com/blog/building-mcp-powered-agentic-rag-application-step-by-step-guide-2-2) | [Notebook](./series/mcp-agentic-rag/MCP_Agentic_RAG_2.ipynb) | — |
 | **How to Structure .claude/ for Maximum Efficiency** | [Tutorial](https://todatabeyond.com/blog/how-to-structure-claude-folder-for-maximum-efficiency) | [Notebook](./Claude_Code_Project_Structure.ipynb) | — |
