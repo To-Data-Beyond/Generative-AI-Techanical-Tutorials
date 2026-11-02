@@ -16,7 +16,7 @@ Companion notebooks and code for To Data & Beyond's hands-on generative AI tutor
 | **Efficient Python for Data Scientists** | [Series contents](./series/efficient-python/) | Complete: Parts 1–2 |
 | **Generative Adversarial Networks** | [Series contents](./series/generative-adversarial-networks/) | Complete: Parts 1, 2 and 5; conceptual Parts 3–4 linked |
 | **Hands-On LangChain for LLM Applications Development** | [Series contents](./series/hands-on-langchain/) | Parts 1–13: including Chains, Agents and Evaluation |
-| **Building Agents with LangGraph** | [Series contents](./series/langgraph/) | Parts 3, 4, 5, 6, and 7 |
+| **Building Agents with LangGraph** | [Series contents](./series/langgraph/) | Parts 2, 3, 4, 5, 6, and 7 |
 | **Hands-On LangSmith** | [Series contents](./series/langsmith/) | Parts 1–3; notebooks for Parts 2–3 |
 | **Building Multimodal RAG Application** | [Series contents](./series/multimodal-rag/) | Part 2 |
 | **Qwen 3 Mathematical Reasoning Fine-Tuning with GRPO** | [Series contents](./series/qwen-3-grpo/) | Shared Part 1–2 notebook |
@@ -30,6 +30,9 @@ Companion notebooks and code for To Data & Beyond's hands-on generative AI tutor
 
 | Topic | Blog | Notebook | Video Tutorial |
 | --- | --- | --- | --- |
+| **Deploying Machine Learning Models on Hugging Face Hub with Gradio Integration** | [Tutorial](https://todatabeyond.com/blog/deploying-machine-learning-models-on-hugging-face-hub-with-gradio-integration) | [Notebook](./HuggingFace_Gradio_Deployment.ipynb) | — |
+| **Building Simple ReAct Agent from Scratch In Python** | [Tutorial](https://todatabeyond.com/blog/building-simple-react-agent-from-scratch-in-python) | [Notebook](./series/langgraph/LangGraph_Series_2_ReAct_Agent.ipynb) | — |
+| **Instruction Fine-Tuning LLM using SFT for Financial Sentiment: A Step-by-Step Guide** | [Tutorial](https://todatabeyond.com/blog/instruction-fine-tuning-llm-using-sft-for-financial-sentiment-a-step-by-step-guide) | [Notebook](./Financial_Sentiment_SFT.ipynb) | — |
 | **Ensemble Learning Techniques: A Walkthrough with Random Forests in Python** | [Tutorial](https://todatabeyond.com/blog/ensemble-learning-techniques-a-walkthrough-with-random-forests-in-python) | [Notebook](./Ensemble_Learning_Python.ipynb) | — |
 | **Revolutionizing Data Analysis with PandasGUI** | [Tutorial](https://todatabeyond.com/blog/revolutionizing-data-analysis-with-pandasgui) | [Notebook](./PandasGUI_Data_Analysis.ipynb) | — |
 | **Docker for Data Science Projects: A Beginner-Friendly Introduction** | [Tutorial](https://todatabeyond.com/blog/docker-for-data-science-projects-a-beginner-friendly-introduction) | [Notebook](./series/docker/Docker_Data_Science_Introduction.ipynb) | — |
