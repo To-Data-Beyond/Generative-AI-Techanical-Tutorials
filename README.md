@@ -9,6 +9,7 @@ Companion notebooks and code for To Data & Beyond's hands-on generative AI tutor
 
 | Series | Contents | Available notebooks |
 | --- | --- | --- |
+| **MCP-Powered Agentic RAG** | [Series contents](./series/mcp-agentic-rag/) | Complete: Parts 1–2; protocol foundation, tools and AI host |
 | **Time Series with Python** | [Series contents](./series/time-series-python/) | Parts 1–6: Manipulation, Analysis, Visualization, ARIMA, SARIMA, ML Regression |
 | **CycleGAN Streamlit Deployment** | [Series contents](./series/cyclegan-streamlit-deployment/) | Complete: Parts 1–2; both official replacement generators |
 | **Python Data Science Interviews** | [Series contents](./series/python-data-science-interviews/) | Complete: Concepts, Preprocessing, Machine & Deep Learning |
@@ -30,6 +31,9 @@ Companion notebooks and code for To Data & Beyond's hands-on generative AI tutor
 
 | Topic | Blog | Notebook | Video Tutorial |
 | --- | --- | --- | --- |
+| **MCP-Powered Agentic RAG — Part 1** | [Tutorial](https://todatabeyond.com/blog/building-mcp-powered-agentic-rag-application-step-by-step-guide-1-2) | [Notebook](./series/mcp-agentic-rag/MCP_Agentic_RAG_1.ipynb) | — |
+| **MCP-Powered Agentic RAG — Part 2** | [Tutorial](https://todatabeyond.com/blog/building-mcp-powered-agentic-rag-application-step-by-step-guide-2-2) | [Notebook](./series/mcp-agentic-rag/MCP_Agentic_RAG_2.ipynb) | — |
+| **How to Structure .claude/ for Maximum Efficiency** | [Tutorial](https://todatabeyond.com/blog/how-to-structure-claude-folder-for-maximum-efficiency) | [Notebook](./Claude_Code_Project_Structure.ipynb) | — |
 | **Building Local OCR Application SmolDocling: A Step-by-Step Guide [Part 2]** | [Tutorial](https://todatabeyond.com/blog/building-local-ocr-application-smoldocling-a-step-by-step-guide-part-2) | [Notebook](./series/smoldocling/SmolDocling_OCR_2.ipynb) | — |
 | **Gemma 3 Reasoning Fine-Tuning Series #1: Medical Reasoning** | [Tutorial](https://todatabeyond.com/blog/gemma-3-reasoning-fine-tuning-crash-course-1-medical-reasoning) | [Notebook](./series/gemma-3-reasoning/Gemma_3_Medical_Reasoning.ipynb) | — |
 | **Gemma 3 Reasoning Fine-Tuning Series #2: Financial Reasoning** | [Tutorial](https://todatabeyond.com/blog/gemma-3-fine-tuning-crash-course-2-financial-reasoning-fine-tuning) | [Notebook](./series/gemma-3-reasoning/Gemma_3_Financial_Reasoning.ipynb) | — |
