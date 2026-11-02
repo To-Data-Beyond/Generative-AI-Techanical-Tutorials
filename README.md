@@ -30,6 +30,9 @@ Companion notebooks and code for To Data & Beyond's hands-on generative AI tutor
 
 | Topic | Blog | Notebook | Video Tutorial |
 | --- | --- | --- | --- |
+| **Building Agentic RAG Application with DeepSeek R1 — A Step-by-Step Guide [Part 1]** | [Tutorial](https://todatabeyond.com/blog/building-agentic-rag-application-with-deepseek-r1-a-step-by-step-guide-part-1) | [Notebook](./series/deepseek-agentic-rag/DeepSeek_Agentic_RAG_1.ipynb) | — |
+| **Building Agentic RAG Application with DeepSeek R1 — A Step-by-Step Guide [Part 2]** | [Tutorial](https://todatabeyond.com/blog/building-agentic-rag-application-with-deepseek-r1-a-step-by-step-guide-part-2) | [Notebook](./series/deepseek-agentic-rag/DeepSeek_Agentic_RAG_2.ipynb) | — |
+| **Building Local OCR Application SmolDocling: A Step-by-Step Guide [Part 1]** | [Tutorial](https://todatabeyond.com/blog/building-local-ocr-application-smoldocling-a-step-by-step-guide-part-1) | [Notebook](./series/smoldocling/SmolDocling_OCR_1.ipynb) | — |
 | **Deploying Machine Learning Models on Hugging Face Hub with Gradio Integration** | [Tutorial](https://todatabeyond.com/blog/deploying-machine-learning-models-on-hugging-face-hub-with-gradio-integration) | [Notebook](./HuggingFace_Gradio_Deployment.ipynb) | — |
 | **Building Simple ReAct Agent from Scratch In Python** | [Tutorial](https://todatabeyond.com/blog/building-simple-react-agent-from-scratch-in-python) | [Notebook](./series/langgraph/LangGraph_Series_2_ReAct_Agent.ipynb) | — |
 | **Instruction Fine-Tuning LLM using SFT for Financial Sentiment: A Step-by-Step Guide** | [Tutorial](https://todatabeyond.com/blog/instruction-fine-tuning-llm-using-sft-for-financial-sentiment-a-step-by-step-guide) | [Notebook](./Financial_Sentiment_SFT.ipynb) | — |

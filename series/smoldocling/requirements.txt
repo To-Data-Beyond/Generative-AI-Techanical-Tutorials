@@ -1,0 +1,5 @@
+torch==2.15.0
+transformers==5.22.1
+docling-core==2.105.0
+pillow==13.0.0
+requests==2.34.2

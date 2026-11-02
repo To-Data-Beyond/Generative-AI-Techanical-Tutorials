@@ -1,0 +1,7 @@
+crewai==1.15.34
+ollama==0.6.3
+langchain-ollama==1.1.0
+pypdf==6.21.4
+ddgs==9.16.1
+requests==2.34.2
+numpy==2.4.6
