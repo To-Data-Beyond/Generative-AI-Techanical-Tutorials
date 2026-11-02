@@ -1,0 +1,12 @@
+mcp==2.3.0
+qdrant-client==1.20.0
+llama-index-embeddings-huggingface==0.8.0
+sentence-transformers==6.2.0
+transformers==5.22.1
+torch==2.15.0
+python-dotenv==1.2.4
+requests==2.34.2
+ddgs==9.16.1
+openai==3.42.1
+filelock==4.2.7
+beautifulsoup4==4.15.0
