@@ -30,6 +30,9 @@ Companion notebooks and code for To Data & Beyond's hands-on generative AI tutor
 
 | Topic | Blog | Notebook | Video Tutorial |
 | --- | --- | --- | --- |
+| **Building Local OCR Application SmolDocling: A Step-by-Step Guide [Part 2]** | [Tutorial](https://todatabeyond.com/blog/building-local-ocr-application-smoldocling-a-step-by-step-guide-part-2) | [Notebook](./series/smoldocling/SmolDocling_OCR_2.ipynb) | — |
+| **Gemma 3 Reasoning Fine-Tuning Series #1: Medical Reasoning** | [Tutorial](https://todatabeyond.com/blog/gemma-3-reasoning-fine-tuning-crash-course-1-medical-reasoning) | [Notebook](./series/gemma-3-reasoning/Gemma_3_Medical_Reasoning.ipynb) | — |
+| **Gemma 3 Reasoning Fine-Tuning Series #2: Financial Reasoning** | [Tutorial](https://todatabeyond.com/blog/gemma-3-fine-tuning-crash-course-2-financial-reasoning-fine-tuning) | [Notebook](./series/gemma-3-reasoning/Gemma_3_Financial_Reasoning.ipynb) | — |
 | **Building Agentic RAG Application with DeepSeek R1 — A Step-by-Step Guide [Part 1]** | [Tutorial](https://todatabeyond.com/blog/building-agentic-rag-application-with-deepseek-r1-a-step-by-step-guide-part-1) | [Notebook](./series/deepseek-agentic-rag/DeepSeek_Agentic_RAG_1.ipynb) | — |
 | **Building Agentic RAG Application with DeepSeek R1 — A Step-by-Step Guide [Part 2]** | [Tutorial](https://todatabeyond.com/blog/building-agentic-rag-application-with-deepseek-r1-a-step-by-step-guide-part-2) | [Notebook](./series/deepseek-agentic-rag/DeepSeek_Agentic_RAG_2.ipynb) | — |
 | **Building Local OCR Application SmolDocling: A Step-by-Step Guide [Part 1]** | [Tutorial](https://todatabeyond.com/blog/building-local-ocr-application-smoldocling-a-step-by-step-guide-part-1) | [Notebook](./series/smoldocling/SmolDocling_OCR_1.ipynb) | — |
