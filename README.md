@@ -31,6 +31,7 @@ Companion notebooks and code for To Data & Beyond's hands-on generative AI tutor
 
 | Topic | Blog | Notebook | Video Tutorial |
 | --- | --- | --- | --- |
+| **Managing Claude Usage Efficiently** | [Tutorial](https://todatabeyond.com/blog/managing-claude-usage-efficiently) | [Notebook](./Claude_Usage_Workflows.ipynb) | — |
 | **How to Scrape JavaScript-Heavy Websites for LLM Pipelines with Cloudflare Browser Rendering** | [Tutorial](https://todatabeyond.com/blog/how-to-scrape-javascript-heavy-websites-for-llm-pipelines-with-cloudflare-browser-rendering) | [Notebook](./Cloudflare_Browser_Rendering.ipynb) | — |
 | **How to Create Loops with Claude Code: A Practical Guide to Agentic Automation** | [Tutorial](https://todatabeyond.com/blog/how-to-create-loops-with-claude-code-a-practical-guide-to-agentic-automation) | [Notebook](./Claude_Code_Loops.ipynb) | — |
 | **Hermes Agent 101: A Practical Guide to Persistent and Self-Improving Agents** | [Tutorial](https://todatabeyond.com/blog/hermes-agent-101-a-practical-guide-to-persistent-and-self-improving-agents) | [Notebook](./Hermes_Agent_101.ipynb) | — |
