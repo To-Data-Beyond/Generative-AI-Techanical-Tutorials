@@ -1,0 +1,99 @@
+[
+  {
+    "name": "segmind/tiny-sd",
+    "revision": "cad0bd7495fa6c4bcca01b19a723dc91627fe84f",
+    "files": [
+      {
+        "file": "model_index.json",
+        "bytes": 584,
+        "sha256": "7e6de3ddb77ce79e23a68b8d946b413eabe958a7affbda0f5297e78824377268"
+      },
+      {
+        "file": "tokenizer/tokenizer_config.json",
+        "bytes": 737,
+        "sha256": "19d7b034cb0cc3ce9766c2231373ab8aa8991fc72e2c8f76558bfaae3de0d563"
+      },
+      {
+        "file": "tokenizer/special_tokens_map.json",
+        "bytes": 472,
+        "sha256": "c4864a9376a8401918425bed71fc14fc0e81f9b59ec45c1cf96cccb2df508eac"
+      },
+      {
+        "file": "tokenizer/merges.txt",
+        "bytes": 524619,
+        "sha256": "9fd691f7c8039210e0fced15865466c65820d09b63988b0174bfe25de299051a"
+      },
+      {
+        "file": "tokenizer/vocab.json",
+        "bytes": 1059962,
+        "sha256": "e089ad92ba36837a0d31433e555c8f45fe601ab5c221d4f607ded32d9f7a4349"
+      },
+      {
+        "file": "scheduler/scheduler_config.json",
+        "bytes": 691,
+        "sha256": "ea897eb6e9c5e7dc3e02121dcb9ae6ac3cd97c0cd59bf750f6f3058a3e4d02dc"
+      },
+      {
+        "file": "text_encoder/config.json",
+        "bytes": 722,
+        "sha256": "e05f77e7bfcd3c155689d90bd3686d36f9ec0d43a4435cf8336198ee3e7c8871"
+      },
+      {
+        "file": "text_encoder/pytorch_model.bin",
+        "bytes": 246187869,
+        "sha256": "f99d8915149c782551f7d14aae5ca0b6e76a6e94d30e5dc86a349b228fbf92ad"
+      },
+      {
+        "file": "unet/config.json",
+        "bytes": 755,
+        "sha256": "55326b8bef1a709254cbb66fdadef156bbe81c011a6be67638a73026be680929"
+      },
+      {
+        "file": "unet/diffusion_pytorch_model.bin",
+        "bytes": 646923637,
+        "sha256": "c9b63e57cb1479c946c73bf5484bc1a823dbe565158ea0ee40015a18844d9f29"
+      },
+      {
+        "file": "vae/config.json",
+        "bytes": 759,
+        "sha256": "7abe76f4219f3f523e089a028730103474449c74398e1537dc2338c365a11e41"
+      },
+      {
+        "file": "vae/diffusion_pytorch_model.bin",
+        "bytes": 167407857,
+        "sha256": "279228e5296858f5d330db506ff6a51fdcad0d69f87634b5e9133406110af9bf"
+      }
+    ]
+  },
+  {
+    "name": "facebook/mms-tts-eng",
+    "revision": "c71de0fe7204c83f1c10820a7d696d0b450048ba",
+    "files": [
+      {
+        "file": "model.safetensors",
+        "bytes": 145227512,
+        "sha256": "69cf8b651c1493f1801dfd2311c298d694a38357bc9a1e41f410491ea6f0e1be"
+      },
+      {
+        "file": "tokenizer_config.json",
+        "bytes": 287,
+        "sha256": "77c74b93b1d36f29248926dbd7714bda59990159cd14cd7ba45fd0115bff905b"
+      },
+      {
+        "file": "special_tokens_map.json",
+        "bytes": 47,
+        "sha256": "87c02ba90dba0e0765358bd3aa2265714b2405429b069a89af51e292db9b8c3d"
+      },
+      {
+        "file": "config.json",
+        "bytes": 1641,
+        "sha256": "c2a93c1dfbf33b640163f2ade16345b9a5194fa54de9a04a04272b76a97fe171"
+      },
+      {
+        "file": "vocab.json",
+        "bytes": 413,
+        "sha256": "304f7e71c40d601f9b89d81904609512eebe96b2a941f0a251fc0c9f397bcc45"
+      }
+    ]
+  }
+]

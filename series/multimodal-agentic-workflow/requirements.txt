@@ -1,0 +1,14 @@
+crewai==1.15.35
+openai==2.54.0
+python-dotenv==1.2.4
+torch==2.15.0
+transformers==5.22.1
+diffusers==0.42.1
+accelerate==1.15.0
+scipy==1.18.1
+numpy==2.5.4
+Pillow==13.0.0
+ddgs==9.16.1
+nbformat==5.11.1
+nbclient==0.11.0
+ipykernel==7.4.0
