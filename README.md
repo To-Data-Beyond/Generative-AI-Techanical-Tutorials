@@ -31,6 +31,9 @@ Companion notebooks and code for To Data & Beyond's hands-on generative AI tutor
 
 | Topic | Blog | Notebook | Video Tutorial |
 | --- | --- | --- | --- |
+| **Hands-On Direct Preference Optimization: From PPO to DPO** | [Tutorial](https://todatabeyond.com/blog/hands-on-direct-preference-optimization-from-ppo-to-dpo) | [Notebook](./series/preference-tuning/Direct_Preference_Optimization.ipynb) | — |
+| **Building a Multimodal Agentic Application with CrewAI: Part 2** | [Tutorial](https://todatabeyond.com/blog/building-a-multimodal-agentic-application-with-crewai-part-2) | [Notebook](./series/multimodal-agentic-workflow/Part_2_Workflow.ipynb) | — |
+| **Building a Multimodal Agentic Application with CrewAI: Part 1** | [Tutorial](https://todatabeyond.com/blog/building-a-multimodal-agentic-application-with-crewai-part-1) | [Notebook](./series/multimodal-agentic-workflow/Part_1_Setup.ipynb) | — |
 | **5 Free Tools to Run Large Language Models Locally on Your Laptop** | [Tutorial](https://todatabeyond.com/blog/5-free-tools-to-run-large-language-models-locally-on-your-laptop) | [Notebook](./Local_LLM_Laptop_Tools.ipynb) | — |
 | **Managing Claude Usage Efficiently** | [Tutorial](https://todatabeyond.com/blog/managing-claude-usage-efficiently) | [Notebook](./Claude_Usage_Workflows.ipynb) | — |
 | **How to Scrape JavaScript-Heavy Websites for LLM Pipelines with Cloudflare Browser Rendering** | [Tutorial](https://todatabeyond.com/blog/how-to-scrape-javascript-heavy-websites-for-llm-pipelines-with-cloudflare-browser-rendering) | [Notebook](./Cloudflare_Browser_Rendering.ipynb) | — |
