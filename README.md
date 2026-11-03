@@ -31,6 +31,7 @@ Companion notebooks and code for To Data & Beyond's hands-on generative AI tutor
 
 | Topic | Blog | Notebook | Video Tutorial |
 | --- | --- | --- | --- |
+| **5 Free Tools to Run Large Language Models Locally on Your Laptop** | [Tutorial](https://todatabeyond.com/blog/5-free-tools-to-run-large-language-models-locally-on-your-laptop) | [Notebook](./Local_LLM_Laptop_Tools.ipynb) | — |
 | **Managing Claude Usage Efficiently** | [Tutorial](https://todatabeyond.com/blog/managing-claude-usage-efficiently) | [Notebook](./Claude_Usage_Workflows.ipynb) | — |
 | **How to Scrape JavaScript-Heavy Websites for LLM Pipelines with Cloudflare Browser Rendering** | [Tutorial](https://todatabeyond.com/blog/how-to-scrape-javascript-heavy-websites-for-llm-pipelines-with-cloudflare-browser-rendering) | [Notebook](./Cloudflare_Browser_Rendering.ipynb) | — |
 | **How to Create Loops with Claude Code: A Practical Guide to Agentic Automation** | [Tutorial](https://todatabeyond.com/blog/how-to-create-loops-with-claude-code-a-practical-guide-to-agentic-automation) | [Notebook](./Claude_Code_Loops.ipynb) | — |
